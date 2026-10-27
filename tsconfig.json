@@ -8,7 +8,8 @@
     "strict": true,
     "skipLibCheck": true,
     "noEmit": true,
+    "allowImportingTsExtensions": true,
     "types": ["node"]
   },
-  "include": ["tui.tsx"]
+  "include": ["tui.tsx", "lib.ts", "tests/**/*.ts"]
 }

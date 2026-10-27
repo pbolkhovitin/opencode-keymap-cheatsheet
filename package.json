@@ -8,7 +8,9 @@
     "./tui": "./tui.tsx"
   },
   "scripts": {
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "verify": "npm run check && npm test"
   },
   "devDependencies": {
     "@opencode/plugin": "2.2.0",
